@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Homebrew
+      id: set-up-homebrew
+      uses: Homebrew/actions/setup-homebrew@master
+    
+    - name: Install tap
+      run: brew tap promptbucket/tap
+    
+    - name: Audit formula
+      run: brew audit --strict --online promptbucket/tap/promptbucket
+    
+    - name: Test formula
+      run: brew install promptbucket/tap/promptbucket && brew test promptbucket/tap/promptbucket

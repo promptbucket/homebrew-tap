@@ -1,8 +1,8 @@
-# PromptBucket Homebrew Tap
+# 🍺 PromptBucket Homebrew Tap
 
-This is the official Homebrew tap for PromptBucket CLI tools.
+This is the official Homebrew tap for PromptBucket CLI tools. 🚀
 
-## Installation
+## 📦 Installation
 
 First, add the tap to your Homebrew:
 
@@ -22,7 +22,7 @@ Or install directly in one command:
 brew install promptbucket/tap/promptbucket
 ```
 
-## Usage
+## 🛠️ Usage
 
 Once installed, you can use the `promptbucket` command:
 
@@ -32,15 +32,15 @@ promptbucket init
 promptbucket build
 ```
 
-## Available Packages
+## 📋 Available Packages
 
-- **promptbucket** - CLI tool for managing prompt buckets
+- **promptbucket** - CLI tool for managing prompt buckets 🪣
 
-## Support
+## 🆘 Support
 
-- **Issues**: Report issues at [promptbucket/cli](https://github.com/promptbucket/cli/issues)
-- **Documentation**: See the [main repository](https://github.com/promptbucket/cli)
+- **Issues**: Report issues at [promptbucket/cli](https://github.com/promptbucket/cli/issues) 🐛
+- **Documentation**: See the [main repository](https://github.com/promptbucket/cli) 📚
 
-## About
+## ℹ️ About
 
-This tap is automatically maintained by [GoReleaser](https://goreleaser.com/) when new releases are created in the main repository.
+This tap is automatically maintained by [GoReleaser](https://goreleaser.com/) when new releases are created in the main repository. ⚡
